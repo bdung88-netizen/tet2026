@@ -7,9 +7,9 @@
 // CONFIGURATION
 // ============================================
 const CONFIG = {
-    pixelId: 'YOUR_PIXEL_ID', // Thay bằng Facebook Pixel ID của bạn
+    pixelId: '1181849205765522', // Thay bằng Facebook Pixel ID của bạn
     // Pixel chuyển đổi riêng cho đơn hàng thành công (tùy chọn)
-    conversionPixelId: 'YOUR_CONVERSION_PIXEL_ID',
+    conversionPixelId: '1181849205765522',
     productName: 'Gay Chup Anh CYKE L16TT',
     productCategory: 'Camera Accessories',
     productPrice: 399000,
@@ -758,4 +758,5 @@ document.addEventListener('DOMContentLoaded', function () {
     // Khởi tạo Social Proof sau khi các component khác đã sẵn sàng
     setTimeout(initSocialProof, 1000);
 });
+
 
